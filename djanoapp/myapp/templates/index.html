@@ -7,10 +7,7 @@
      {% load static %}
 </head>
  <body>
-<form method="post" class="post-form" enctype="multipart/form-data">
-      {% csrf_token %}
-       {{form.as_p}}
-     <button type="submit" class="save btn btn-default">save</button>
-</form>
+     <button type="login" onclick="location.href='/login'">login</button>
+     <button type="signup" onclick="location.href='/signup'">signup</button>
  </body>
 </html>

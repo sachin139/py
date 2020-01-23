@@ -26,3 +26,7 @@ def setcookie(request):
 def getacookie(request):
     tutorial=request.COOKIES['java-tutorial']
     return HttpResponse("java tutorial @:"+ tutorial);
+def login(request):
+    return render(request,"login.html")
+def signup(request):
+    return  render(request,"signup.html")

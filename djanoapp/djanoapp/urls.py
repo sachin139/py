@@ -24,6 +24,8 @@ urlpatterns = [
     path('ssession',views.setsession),
     path('gsession',views.getsession),
     path('scookie',views.setcookie),
-    path('gcookie',views.getacookie)
+    path('gcookie',views.getacookie),
+    path('login/',views.login),
+    path('signup/',views.signup),
 
 ]
